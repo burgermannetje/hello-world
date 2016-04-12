@@ -18,7 +18,7 @@ public class AppTest {
 	public void getMessageTjeerd() throws Exception {
 		App app = new App();
 		
-		String name = "Tjeerd";
+		String name = "Tjeerd!!!";
 		assertEquals(app.getMessage(name), "Hello Tjeerd!");
 	}
 
