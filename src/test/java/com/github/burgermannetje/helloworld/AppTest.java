@@ -21,5 +21,13 @@ public class AppTest {
 		String name = "Tjeerd";
 		assertEquals(app.getMessage(name), "Hello Tjeerd!");
 	}
+	
+	@Test
+	public void getMessageNull() throws Exception {
+		App app = new App();
+		
+		String name = null;
+		assertEquals(app.getMessage(name), "Hello World!");
+	}
 
 }
